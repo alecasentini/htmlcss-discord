@@ -229,6 +229,19 @@ main p{
 
 #ready{
     margin-bottom: 30px;
+    position: relative;
+    padding: 10px;
+}
+
+#ready img{
+    position:absolute;
+    width: 120%;
+    bottom: 35px;
+    left: -40px;
+}
+
+#ready h3{
+    font-size: 30px;
 }
 
 /* footer */
@@ -310,8 +323,4 @@ footer .login{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.login div{
-    
 }
