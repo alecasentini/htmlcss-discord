@@ -2,85 +2,88 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 header{
-    background-color: blue;
-    width: 100%;
-    height: 750px;
-    display: flex;
-    flex-direction: column;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    height: auto;
+    background-position: bottom;
 }
 
-header section.nav{
-    background-color: aquamarine;
-    width: 100%;
-    height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* utility */
+
+.button{
+    border-radius: 25px;
+    display: inline-block;
+    padding: 15px;
 }
 
-div.container-nav{
-    background-color: black;
-    display: flex;
+.bg-white{
+    background-color: white;
+    color: black;
+}
+
+.bg-black{
+    background-color: #23272a;
+    color: white;
+}
+
+.width-70{
     width: 70%;
-
+    margin: auto;
 }
 
-header div{
-    background-color: yellow;
-    border: 3px dotted black;
-    width: 100%;
-    justify-content: center;
+a{
+    text-decoration: none;
 }
+
+section.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.text span{
+    margin-right: 20px;
+}
+
 
 ul{
     list-style-type: none;
-    display: inline-flex;
+    display: inline-flex;  
 }
 
-li{
+ul li a{
     margin: 0 10px;
+    color: white;
 }
-
-header .link{
-    text-align: center;
-}
-
-header .login{
-    text-align: end;
-}
-
-header .logo , .login{
-    flex-basis: 25%;
-}
-
 
 section.front{
-    background-color: aqua;
     width: 100%;
-    height: 80%;
     display: flex;
     justify-content: center;
+    padding: 150px 0;
+}
+
+h1{
     padding: 20px 0;
+    font-size: 56px;
 }
 
-div.purple{
-    background-color: purple;
+p{
+    padding: 20px 0px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+div.text{   
     height: 100%;
-    width: 50%;
-    border: 3px dotted black;
-}
-
-.section-1,
-.section-2,
-.section-3{
-    height: 900px;
-    display: flex;
-    padding: 100px 0;
-    justify-content: center;
-    position: relative;
+    width: 42%;
+    color: white;
+    text-align: center;
 }
 
 /* wave css-svg bottom */
@@ -126,6 +129,16 @@ div.purple{
 
 .custom-shape-divider-top-1676906746 .shape-fill {
     fill: #FFFFFF;
+}
+
+.section-1,
+.section-2,
+.section-3{
+    height: 900px;
+    display: flex;
+    padding: 100px 0;
+    justify-content: center;
+    position: relative;
 }
 
 .section-4{
