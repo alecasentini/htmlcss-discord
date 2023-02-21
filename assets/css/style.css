@@ -219,16 +219,6 @@ main p{
     text-align: center;
 }
 
-#ready{
-    position: relative;
-    text-align: center;
-    
-}
-
-h3{
-    position: absolute;
-    text-align: center;
-}
 
 footer{
     background-color: darkblue;
