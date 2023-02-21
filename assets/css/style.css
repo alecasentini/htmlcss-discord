@@ -5,16 +5,10 @@
     font-family: 'Rubik', sans-serif;
 }
 
-header{
-    background-image: url(../img/jumbo.png);
-    background-size: 100%;
-    height: auto;
-    background-position: bottom;
-}
 
 /* utility */
 
-.button{
+.button {
     border-radius: 25px;
     display: inline-block;
     padding: 15px;
@@ -39,10 +33,22 @@ a{
     text-decoration: none;
 }
 
+/* header */
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    height: auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: #255ee9;
+}
+
 section.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 100px ;
     padding-top: 20px;
 }
 
@@ -57,7 +63,7 @@ ul{
 }
 
 ul li a{
-    margin: 0 10px;
+    margin: 0 30px;
     color: white;
 }
 
@@ -65,7 +71,7 @@ section.front{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 150px 0;
+    padding-bottom: 250px;
 }
 
 h1{
@@ -131,6 +137,7 @@ div.text{
     fill: #FFFFFF;
 }
 
+/* main */
 .section-1,
 .section-2,
 .section-3{
@@ -155,22 +162,27 @@ main section:nth-child(even){
 main div{
     width: 70%;
     display: flex;
+}
+
+.container{
+    display: flex;
     
 }
 
-.pink{
+.description{
     background-color: pink;
     width: 30%;
-    border: 3px dotted black;
+    
 }
 
-.sky{
-    background-color: skyblue;
+.img{
+    background-size: 100%;
     width: 70%;
-    border: 3px dotted black;
+    align-items: center;
 }
 
-.section-2 .pink{
+
+.section-2 .description{
     order:-1;
 }
 
