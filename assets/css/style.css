@@ -228,16 +228,13 @@ main p{
 }
 
 #ready{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
     margin-bottom: 30px;
     position: relative;
-    padding: 10px;
-}
-
-#ready img{
-    position:absolute;
-    width: 120%;
-    bottom: 35px;
-    left: -40px;
+    padding: 30px 30px 0 30px;
 }
 
 #ready h3{
